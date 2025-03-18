@@ -72,7 +72,7 @@ python3 ip_geoloc.py --input-file ips.txt --output output.csv
 
 ### Batch Processing
 
-You can also process a large batch of IPs stored in a text file using the `batch_lookup` function. This can be configured to output the results in various formats (CSV, JSON, GeoJSON).
+You can also process a large batch of IPs stored in a text file using the `batch_lookup` function.
 
 ## Configuration
 
