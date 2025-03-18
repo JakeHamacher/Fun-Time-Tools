@@ -75,10 +75,7 @@ The extracted metadata will be output in a csv file by default.
 ## Requirements
 
 - Python 3.x
-- External libraries:
-    - `exifread` for extracting EXIF metadata from images.
-    - `PyPDF2` for extracting metadata from PDF files.
-    - `python-magic` for determining MIME types of files.
+- External libraries
 
 You can install the required dependencies using:
 
