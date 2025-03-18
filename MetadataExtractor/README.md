@@ -2,7 +2,7 @@
 
 This tool provides a one-stop solution for extracting metadata from various file formats, including images, PDFs, and text files. It supports the following features:
 
-- Image metadata extraction (JPEG): EXIF data like camera model, date taken, and GPS coordinates.
+- Image metadata extraction (JPEG): EXIF data like camera model, date taken, etc.
 - PDF metadata extraction: Author, producer, title, and subject.
 - Text file metadata extraction: Word count, line count, and file encoding.
 - MIME type identification for files.
@@ -22,12 +22,12 @@ To use this tool, you'll need to install the required dependencies.
 
 1. Clone this repository:
         ```bash
-        git clone https://github.com/your-username/metadata-extractor.git
+        git clone https://github.com/JakeHamacher/Fun-Time-Tools.git
         ```
 
 2. Navigate to the project folder:
         ```bash
-        cd metadata-extractor
+        cd Fun-Time-Tools\metadata-extractor
         ```
 
 3. Install the dependencies using pip:
@@ -61,29 +61,16 @@ This will print the metadata extracted from the image.
 
 ### Supported File Types
 
-- **Images**: JPEG (.jpg, .jpeg)
+- **Images**: Images (.jpg, .jpeg, .tiff)
     - Metadata: Camera model, date taken, GPS coordinates.
 - **PDFs**: PDF (.pdf)
     - Metadata: Author, title, producer, subject.
-- **Text Files**: Text files (.txt, .md)
+- **Text Files**: Word Documents (.docx)
     - Metadata: Word count, line count.
 
 ### Output
 
-The extracted metadata will be printed to the terminal in a dictionary format, containing information based on the file type.
-
-#### Example output for an image:
-
-```bash
-{
-    'file_name': 'image.jpg',
-    'file_size': 23456,
-    'file_type': 'image/jpeg',
-    'camera_model': 'Canon EOS 5D Mark IV',
-    'date_taken': '2023:06:25 13:45:00',
-    'gps_coordinates': (40.7128, -74.0060)
-}
-```
+The extracted metadata will be output in a csv file by default.
 
 ## Requirements
 
