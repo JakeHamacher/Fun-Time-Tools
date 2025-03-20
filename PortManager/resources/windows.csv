@@ -1,0 +1,22 @@
+Executable Name,Type,Description
+winlogon.exe,Windows Process,Handles user logins and logouts
+explorer.exe,Windows Process,Manages the Windows graphical shell
+svchost.exe,Windows Process,Hosts Windows services
+lsass.exe,Windows Process,Manages security policy and authentication
+csrss.exe,Windows Process,Handles console windows and process shutdown
+notepad.exe,Windows Process,Default text editor
+calc.exe,Windows Process,Windows Calculator
+chrome.exe,Application,Google Chrome browser
+firefox.exe,Application,Mozilla Firefox browser
+cmd.exe,Windows Process,Command Prompt
+powershell.exe,Windows Process,PowerShell command-line shell
+rundll32.exe,Windows Process,Executes DLL files
+conhost.exe,Windows Process,Console window host
+smss.exe,Windows Process,Session manager subsystem
+services.exe,Windows Process,Manages system services
+spoolsv.exe,Windows Process,Print Spooler service
+wininit.exe,Windows Process,Initializes system startup
+regedit.exe,Windows Process,Registry Editor
+mstsc.exe,Windows Process,Remote Desktop Connection
+msedge.exe,Application,Microsoft Edge browser
+taskmgr.exe,Windows Process,Task Manager
