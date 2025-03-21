@@ -5,6 +5,7 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - **Metadata Extractor Tool**: Extracts metadata from a variety of file types, including images, PDFs, and MS Word files.
 - **IP Geolocation Tool**: Allows batch processing of IP addresses to retrieve their geolocation information.
 - **Port Manager**: A GUI tool to monitor and manage open network ports on Windows systems.
+- **Not So Secure Shell**: Attempts to gain access to an SSH server using a list of usernames and passwords.
 
 ## Features
 
@@ -28,6 +29,12 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - Close Ports: Allows users to terminate processes associated with open ports using a single button click.
 - Service Identification: Fetches and displays service details related to a process using preloaded CSV files.
 - Admin Privileges Check: Ensures the application runs with administrator privileges for necessary permissions.
+
+### Not So Secure Shell
+- Automated SSH Login Attempts: Uses the Paramiko library to try logging into an SSH server.
+- Dictionary Attack: Reads usernames and passwords from files to attempt authentication.
+- Batch Username Support: Accepts a single username or a file containing multiple usernames.
+- Customizable Port: Allows specifying a different SSH port (default is 22).
 
 ## Installation
 
