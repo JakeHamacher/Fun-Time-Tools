@@ -6,6 +6,7 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - **IP Geolocation Tool**: Allows batch processing of IP addresses to retrieve their geolocation information.
 - **Port Manager**: A GUI tool to monitor and manage open network ports on Windows systems.
 - **Not So Secure Shell**: Attempts to gain access to an SSH server using a list of usernames and passwords.
+- **File Fuzzer**: Encryption and decryption tool with a graphical user interface.
 
 ## Features
 
@@ -35,6 +36,12 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - Dictionary Attack: Reads usernames and passwords from files to attempt authentication.
 - Batch Username Support: Accepts a single username or a file containing multiple usernames.
 - Customizable Port: Allows specifying a different SSH port (default is 22).
+
+### File Fuzzer
+- AES Encryption (EAX Mode): Ensures confidentiality and integrity.
+- Password-Based Encryption: Uses PBKDF2 key derivation with a random salt.
+- Secure File Handling: Encrypts/decrypts a variety of filetypes.
+- Dark Theme GUI: Provides a "visually appealing" dark theme for the interface.
 
 ## Installation
 
