@@ -1,0 +1,9 @@
+[submodule "MultiTool/supports/nikto"]
+	path = MultiTool/supports/nikto
+	url = https://github.com/sullo/nikto
+[submodule "MultiTool/supports/testssl.sh"]
+	path = MultiTool/supports/testssl.sh
+	url = https://github.com/testssl/testssl.sh
+[submodule "MultiTool/supports/sqlmap-dev"]
+	path = MultiTool/supports/sqlmap-dev
+	url = https://github.com/sqlmapproject/sqlmap
