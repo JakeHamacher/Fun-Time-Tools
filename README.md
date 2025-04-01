@@ -8,6 +8,7 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - **Not So Secure Shell**: Attempts to gain access to an SSH server using a list of usernames and passwords.
 - **File Fuzzer**: Encryption and decryption tool with a graphical user interface.
 - **CTF MultiTool**: A comprehensive vulnerability assessment tool that combines various security testing tools such as OWASP ZAP, testssl.sh, sqlmap, nmap, nikto, and Nuclei.
+- **HashSlingingSlasher**: A password hash cracker that supports dictionary attacks, brute-force attacks, and rainbow table lookups.
 
 ## Features
 
@@ -50,6 +51,12 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - Injection (SQL Injection using sqlmap): Automates detection and exploitation of SQL injection flaws.
 - Security Misconfiguration (nmap + nikto): Scans for common security misconfigurations and vulnerabilities.
 - SSRF Detection (Nuclei): Identifies Server-Side Request Forgery vulnerabilities using templates.
+
+### HashSlingingSlasher
+- Dictionary Attack: Uses a list of common passwords to attempt cracking.
+- Brute-Force Attack: Attempts to crack a hash using a predefined character set.
+- Rainbow Table Lookup: Uses a precomputed rainbow table to crack a hash.
+
 ## Installation
 
 To get started, you'll need to clone the repository and install the required dependencies.

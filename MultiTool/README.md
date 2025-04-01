@@ -63,7 +63,3 @@ After running a scan, results are stored as:
 ## Error Handling
 
 If any scan fails, the tool displays an error message and logs it in the report.
-
-## License
-
-This tool is provided as-is for educational and research purposes only. Use responsibly.
