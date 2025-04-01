@@ -58,6 +58,8 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/JakeHamacher/Fun-Time-Tools.git
+git submodule init
+git submodule update
 ```
 
 Navigate to the project folder:
