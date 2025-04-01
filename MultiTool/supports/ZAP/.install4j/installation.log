@@ -1,0 +1,479 @@
+[INFO] Logger started at 2025-03-24 16:53:35
+[INFO] Executable name: C:\Users\jakeh\Desktop\ZAP_2_16_0_windows.exe
+[INFO] install4j version: 10.0.8 (build 10152)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=23
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\jakeh\AppData\Local\Temp\e4j...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+install4j.exeDir=C:\Users\jakeh\Desktop\
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=America/New_York
+java.vm.specification.version=23
+os.name=Windows 10
+user.country=US
+sun.boot.library.path=c:\program files\java\jdk-23\bin
+sun.java.command=C:\Users\jakeh\Desktop\ZAP_2_16_0_win...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=4761750
+user.home=C:\Users\jakeh
+user.language=en
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2024-10-15
+java.home=c:\program files\java\jdk-23
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+jdk.lang.Process.allowAmbiguousCommands=false
+exe4j.moduleName=C:\Users\jakeh\Desktop\ZAP_2_16_0_win...
+exe4j.tempDir=C:\Users\jakeh\AppData\Local\Temp\e4j...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=23.0.1+11-39
+user.name=jakeh
+stdout.encoding=Cp1252
+path.separator=;
+os.version=10.0
+java.runtime.name=Java(TM) SE Runtime Environment
+file.encoding=UTF-8
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+exe4j.semaphoreName=Local\c:_users_jakeh_desktop_zap_2_16...
+install4j.appDir=C:\Users\jakeh\AppData\Local\Temp\
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\jakeh\AppData\Local\Temp\
+java.version=23.0.1
+user.dir=C:\Users\jakeh\AppData\Local\Temp\e4j...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+native.encoding=Cp1252
+java.library.path=c:\program files\java\jdk-23\bin;C:\U...
+java.vm.info=mixed mode, sharing
+stderr.encoding=Cp1252
+java.vendor=Oracle Corporation
+java.vm.version=23.0.1+11-39
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=67.0
+exe4j.launchName=C:\Users\jakeh\Desktop\ZAP_2_16_0_win...
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property linuxPrivilegeRequirement: Require root
+       Property failIfNotObtainedLinux: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: true
+       Property obtainIfAdminMac: true
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: true
+       Property obtainIfNormalWin: true
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Starting elevated helper
+       Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Execute action successful after 7559 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 248]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_46
+       Property rollbackSupported: false
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupName=ZAP\Zed Attack Proxy[class java.lang.String]
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 821]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_47
+       Property rollbackSupported: false
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 52]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 52]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 98]: Show screen
+       Variable changed: installationType=0[class java.lang.Integer]
+       Variable changed: customInstall=false[class java.lang.Boolean]
+       Variable changed: cfu.checkForUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.downloadNewRelease=false[class java.lang.Boolean]
+       Variable changed: cfu.checkAddOnUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installAddonUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installScannerRules=true[class java.lang.Boolean]
+       Variable changed: cfu.reportReleaseAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.reportBetaAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.reportAlphaAddons=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 98]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 242]: Show screen
+       Variable changed: installationSummary=Destination location:
+    ${installer:sys.contentDir}
+
+Start Menu folder:
+    ${installer:sys.programGroupName}
+
+Additional tasks:
+    Additional icons:
+        Create a desktop icon
+
+Check for Updates:
+  Check for updates on startup: Yes
+  Automatically download new ZAP releases: No
+  Check for updates to the add-ons you have installed: Yes
+  Automatically install updates to the add-ons you have installed: Yes
+  Automatically install updates to the scan rules you have installed: Yes
+  Report new Release status add-ons: Yes
+  Report new Beta status add-ons: Yes
+  Report new Alpha status add-ons: Yes
+[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 242]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 820]: Execute action
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: false
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+[ERROR] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 820]: com.install4j.api.beans.UndefinedVariableException: installer:uninstallOldDir
+com.install4j.api.beans.UndefinedVariableException: installer:uninstallOldDir
+	at com.install4j.runtime.installer.InstallerVariables.handleError(InstallerVariables.java:1304)
+	at com.install4j.runtime.installer.InstallerVariables$InstallerReplacementCallback.getReplacement(InstallerVariables.java:1237)
+	at com.install4j.runtime.util.StringUtil.replaceVariable(StringUtil.java:94)
+	at com.install4j.runtime.util.StringUtil.replaceVariable(StringUtil.java:64)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:419)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:408)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:404)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:444)
+	at com.install4j.api.beans.AbstractBean.replaceVariables(AbstractBean.java:91)
+	at com.install4j.runtime.beans.actions.UninstallPreviousAction.getInstallationDirectory(UninstallPreviousAction.java:61)
+	at com.install4j.runtime.beans.actions.UninstallPreviousAction.install(UninstallPreviousAction.java:104)
+	at com.install4j.runtime.installer.ContextImpl$7.executeAction(ContextImpl.java:1775)
+	at com.install4j.runtime.installer.ContextImpl$7.fetchValue(ContextImpl.java:1765)
+	at com.install4j.runtime.installer.ContextImpl$7.fetchValue(ContextImpl.java:1762)
+	at com.install4j.runtime.installer.helper.comm.actions.FetchObjectAction.execute(FetchObjectAction.java:14)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionDirect(HelperCommunication.java:292)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(HelperCommunication.java:267)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionChecked(HelperCommunication.java:205)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.fetchObjectChecked(HelperCommunication.java:188)
+	at com.install4j.runtime.installer.ContextImpl.performActionIntStatic(ContextImpl.java:1762)
+	at com.install4j.runtime.installer.InstallerContextImpl.performActionInt(InstallerContextImpl.java:166)
+	at com.install4j.runtime.installer.ContextImpl.performAction(ContextImpl.java:1173)
+	at com.install4j.runtime.installer.controller.Controller.executeAction(Controller.java:420)
+	at com.install4j.runtime.installer.controller.Controller.executeActions(Controller.java:386)
+	at com.install4j.runtime.installer.controller.Controller.handleCommand(Controller.java:240)
+	at com.install4j.runtime.installer.controller.Controller.start(Controller.java:142)
+	at com.install4j.runtime.installer.Installer.runInProcess(Installer.java:75)
+	at com.install4j.runtime.installer.Installer.main(Installer.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+        Execute action not successful after 171 ms
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 169]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+       previous installation id at C:\Program Files\ZAP\Zed Attack Proxy: null
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 5 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property validateApplicationId: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\ZAP.exe; size: 188928 bytes; exists: false
+       File options set to: [fileTime: Fri Jan 10 07:00:16 EST 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\alertFilters-release-23.zap; size: 568692 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\ascanrules-release-70.zap; size: 3323142 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\authhelper-beta-0.17.0.zap; size: 818701 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\automation-beta-0.44.0.zap; size: 1809201 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\bruteforce-beta-17.zap; size: 552468 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\callhome-release-0.14.0.zap; size: 322668 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\client-alpha-0.10.0.zap; size: 1987254 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\commonlib-release-1.30.0.zap; size: 15146336 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\database-alpha-0.7.0.zap; size: 23094350 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\diff-beta-17.zap; size: 693148 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\directorylistv1-release-9.zap; size: 961164 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\domxss-release-21.zap; size: 284336 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\encoder-release-1.6.0.zap; size: 477920 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\exim-beta-0.13.0.zap; size: 940208 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\formhandler-beta-6.7.0.zap; size: 2128203 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\fuzz-beta-13.15.0.zap; size: 2014110 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\gettingStarted-release-19.zap; size: 968572 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\graaljs-alpha-0.9.0.zap; size: 24540532 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\graphql-alpha-0.26.0.zap; size: 5475010 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\help-release-19.zap; size: 637180 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\hud-beta-0.19.0.zap; size: 1382692 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\invoke-beta-16.zap; size: 323503 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\network-beta-0.20.0.zap; size: 28127964 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\oast-beta-0.21.0.zap; size: 904504 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\onlineMenu-release-14.zap; size: 208647 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\openapi-beta-44.zap; size: 11575879 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\postman-alpha-0.5.0.zap; size: 283604 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\pscan-alpha-0.1.0.zap; size: 139937 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\pscanrules-release-62.zap; size: 1927785 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\quickstart-release-51.zap; size: 774568 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\replacer-release-20.zap; size: 445124 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\reports-release-0.35.0.zap; size: 14874633 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\requester-beta-7.8.0.zap; size: 763103 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\retest-alpha-0.11.0.zap; size: 259775 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\retire-release-0.44.0.zap; size: 1000688 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\reveal-release-9.zap; size: 238840 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\scanpolicies-alpha-0.2.0.zap; size: 278397 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\scripts-release-45.8.0.zap; size: 5197081 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\selenium-release-15.32.0.zap; size: 35284942 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\sequence-beta-8.zap; size: 1609867 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\soap-beta-24.zap; size: 12911506 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\spider-release-0.13.0.zap; size: 1163083 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\spiderAjax-release-23.22.0.zap; size: 7571393 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\tips-beta-14.zap; size: 572632 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\webdriverwindows-release-119.zap; size: 19964529 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\websocket-release-32.zap; size: 1402521 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\plugin\zest-beta-48.0.0.zap; size: 5627343 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4jdel.exe; size: 95936 bytes; exists: false
+       File options set to: [fileTime: Fri Jan 10 07:00:16 EST 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4jinst.dll; size: 308416 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\README; size: 2167 bytes; exists: false
+       File options set to: [fileTime: Fri Jan 10 07:00:16 EST 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\db\db.properties; size: 737 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\db\hsqldb.properties; size: 11940 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\db\mysql.properties; size: 10289 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\db\mysql.schema; size: 9970 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\db\zapdb.properties; size: 89 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\db\zapdb.script; size: 4980 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages.properties; size: 228227 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ar_SA.properties; size: 280137 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_az_AZ.properties; size: 233489 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_bn_BD.properties; size: 249993 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_bs_BA.properties; size: 230816 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ceb_PH.properties; size: 241831 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_da_DK.properties; size: 227020 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_de_DE.properties; size: 231692 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_el_GR.properties; size: 281853 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_es_ES.properties; size: 269602 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_fa_IR.properties; size: 284260 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_fil_PH.properties; size: 241604 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_fr_FR.properties; size: 249027 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ha_HG.properties; size: 225283 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_he_IL.properties; size: 232909 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_hi_IN.properties; size: 226004 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_hr_HR.properties; size: 225582 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_hu_HU.properties; size: 234743 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_id_ID.properties; size: 230119 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_it_IT.properties; size: 240081 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ja_JP.properties; size: 265097 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ko_KR.properties; size: 228016 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_mk_MK.properties; size: 225283 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ms_MY.properties; size: 226342 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_nb_NO.properties; size: 225284 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_nl_NL.properties; size: 231242 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_pcm_NG.properties; size: 225855 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_pl_PL.properties; size: 234008 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_pt_BR.properties; size: 250839 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_pt_PT.properties; size: 229647 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ro_RO.properties; size: 230535 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ru_RU.properties; size: 614151 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_si_LK.properties; size: 226086 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_sk_SK.properties; size: 225778 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_sl_SI.properties; size: 226492 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_sq_AL.properties; size: 225749 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_sr_CS.properties; size: 225805 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_sr_SP.properties; size: 225554 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_tr_TR.properties; size: 256910 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_uk_UA.properties; size: 596480 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_ur_PK.properties; size: 244802 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_vi_VN.properties; size: 225825 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_yo_NG.properties; size: 225266 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_zh_CN.properties; size: 297523 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lang\Messages_zh_TW.properties; size: 229867 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-beanutils-1.9.4.jar; size: 246918 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-codec-1.17.1.jar; size: 372687 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-collections-3.2.2.jar; size: 588337 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-configuration-1.10.jar; size: 362679 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-csv-1.12.0.jar; size: 56591 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-httpclient-3.1.jar; size: 305001 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-io-2.18.0.jar; size: 538910 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-lang-2.6.jar; size: 284220 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-lang3-3.17.0.jar; size: 673587 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-logging-1.3.4.jar; size: 73721 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\commons-text-1.12.0.jar; size: 251227 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\ezmorph-1.0.6.jar; size: 86487 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\flatlaf-3.5.4.jar; size: 907663 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\harlib-1.1.3.jar; size: 123713 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\hsqldb-2.7.4.jar; size: 1662185 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\jackson-core-asl-1.9.13.jar; size: 232248 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\java-semver-0.10.2.jar; size: 52003 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\javahelp-2.0.05.jar; size: 562749 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\jericho-html-3.4.jar; size: 238398 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\jfreechart-1.5.5.jar; size: 1651097 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\jgrapht-core-0.9.0.jar; size: 333259 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\json-lib-2.4-jdk15.jar; size: 159123 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\log4j-1.2-api-2.24.2.jar; size: 356377 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\log4j-api-2.24.2.jar; size: 348229 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\log4j-core-2.24.2.jar; size: 1914998 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\log4j-jul-2.24.2.jar; size: 31076 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\rsyntaxtextarea-3.5.3.jar; size: 1321668 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\swingx-all-1.6.5-1.jar; size: 1495328 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\lib\xom-1.3.9.jar; size: 326351 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\ApacheLicense-2.0.txt; size: 11358 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\COPYING; size: 26992 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\OFL.txt; size: 4599 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\RSyntaxTextArea.License.txt; size: 1492 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\TheClarifiedArtisticLicense.htm; size: 7400 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\TheClarifiedArtisticLicense.rtf; size: 7228 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\gpl-2.0.txt; size: 18092 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\hsqldb_lic.txt; size: 1602 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\hypersonic_lic.txt; size: 3368 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\license\lgpl-3.0.txt; size: 7651 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\uninstall.exe; size: 585728 bytes; exists: false
+       File options set to: [fileTime: Fri Jan 10 07:00:16 EST 2025, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\xml\config.xml; size: 3881 bytes; exists: false
+       File options set to: [fileTime: Fri Jan 10 07:00:16 EST 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\xml\drivers.dtd; size: 170 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\xml\reportCompare.xsl; size: 3054 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\zap-2.16.0.jar; size: 5507790 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\zap.bat; size: 188 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\zap.ico; size: 123778 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\zap.sh; size: 4954 bytes; exists: false
+       File options set to: [fileTime: Fri Jan 10 07:00:16 EST 2025, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\inst_jre.cfg; size: 30 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 24 16:54:00 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4jruntime.jar; size: 2107155 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 24 16:54:00 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\MessagesDefault; size: 34826 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4jparams.conf; size: 106088 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\stats.properties; size: 1260 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\user.jar; size: 21583 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\user\flatlaf.jar; size: 758100 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_0_7vk7gk.utf8; size: 34826 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_10_7vk7gk.utf8; size: 37661 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_11_7vk7gk.utf8; size: 35446 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_12_7vk7gk.utf8; size: 36311 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_13_7vk7gk.utf8; size: 37556 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_14_7vk7gk_dcvdhj.png; size: 816 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_15_7vk7gk_1pa6cgr.png; size: 1933 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_16_7vk7gk_16vgtkw.png; size: 3600 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_17_7vk7gk_6twyc5.png; size: 10790 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_18_7vk7gk.txt; size: 11358 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_19_7vk7gk_18mu4rr.ico; size: 123778 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_1_7vk7gk.properties; size: 3146 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_20_7vk7gk_1gk1b9c.png; size: 63628 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_21_7vk7gk_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_21_7vk7gk_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_21_7vk7gk_18gg8kx@2x_dark.png; size: 15837 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_21_7vk7gk_18gg8kx_dark.png; size: 8891 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_2_7vk7gk.utf8; size: 33865 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_3_7vk7gk.utf8; size: 38929 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_4_7vk7gk.utf8; size: 37408 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_5_7vk7gk.utf8; size: 48914 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_6_7vk7gk.utf8; size: 36823 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_7_7vk7gk.utf8; size: 37297 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_8_7vk7gk.utf8; size: 44212 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\i4j_extf_9_7vk7gk.utf8; size: 34760 bytes; exists: false
+       Install file: C:\Program Files\ZAP\Zed Attack Proxy\.install4j\installer.ico; size: 123778 bytes; exists: false
+       Execute action successful after 3115 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: [com.install4j.runtime.beans.screens.components.ProgramGroupUrlConfig@14028087]
+       Property programGroupName: ZAP\Zed Attack Proxy
+       Property uninstallerMenuName: Zed Attack Proxy by Checkmarx Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ZAP\Zed Attack Proxy\Zed Attack Proxy by Checkmarx Uninstaller.lnk; size: 2097 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 24 16:54:01 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ZAP\Zed Attack Proxy\ZAP 2.16.0.lnk; size: 2049 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 24 16:54:01 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ZAP\Zed Attack Proxy\ZAP homepage.url; size: 163 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 24 16:54:01 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 501 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 235]: Execute action
+       Property additionalDesktopFileEntries: 
+       Property arguments: 
+       Property description: 
+       Property file: ZAP.exe
+       Property name: ZAP 2.16.0
+       Property startIn: null
+       Property unixIconFile: i4j_extf_20_7vk7gk_1gk1b9c.png
+       Property winIconFile: i4j_extf_19_7vk7gk_18mu4rr.ico
+       Property allUsers: true
+       Property macSingleBundleTarget: false
+       Property rollbackSupported: true
+       Property runAsAdministrator: false
+       Install file: C:\Users\Public\Desktop\ZAP 2.16.0.lnk; size: 2117 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 24 16:54:01 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 68 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: Zed Attack Proxy by Checkmarx 2.16.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 48 ms
+[INFO] com.install4j.runtime.beans.actions.xml.InsertXmlFragmentAction [ID 570]: Execute action
+       Property files: [xml\config.xml]
+       Property fragmentFile: null
+       Property fragmentInsertMode: Insert as first child
+       Property fragmentSource: Direct entry
+       Property fragmentText: <start>
+	<checkForUpdates>true</checkForUpdates>
+	<downloadNewRelease>false</downloadNewRelease>
+	<checkAddonUpdates>true</checkAddonUpdates>
+	<installAddonUpdates>true</installAddonUpdates>
+	<installScannerRules>true</installScannerRules>
+	<reportReleaseAddons>true</reportReleaseAddons>
+	<reportBetaAddons>true</reportBetaAddons>
+	<reportAlphaAddons>true</reportAlphaAddons>
+</start>
+       Property xpathExpression: /config
+       Property downloadExternalEntities: false
+       Property rollbackSupported: true
+       Property validating: false
+       Backing up C:\Program Files\ZAP\Zed Attack Proxy\xml\config.xml
+       Execute action successful after 191 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 635]: Execute action
+       Property encoding: 
+       Property file: ZAP.desktop
+       Property text: [logging of replacement text is disabled]
+       Property append: true
+       Property escaped: false
+       Property logText: false
+       Property rollbackSupported: true
+       Execute action successful after 8 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished at 2025-03-24 16:54:04

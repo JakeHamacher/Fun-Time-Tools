@@ -7,14 +7,15 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - **Port Manager**: A GUI tool to monitor and manage open network ports on Windows systems.
 - **Not So Secure Shell**: Attempts to gain access to an SSH server using a list of usernames and passwords.
 - **File Fuzzer**: Encryption and decryption tool with a graphical user interface.
+- **CTF MultiTool**: A comprehensive vulnerability assessment tool that combines various security testing tools such as OWASP ZAP, testssl.sh, sqlmap, nmap, nikto, and Nuclei.
 
 ## Features
 
 ### Metadata Extractor Tool
 
-- **Images**: Extract metadata from JPEG images (EXIF data like camera model, date taken, etc.).
-- **PDFs**: Extract metadata such as author, title, producer, and subject.
-- **Text Files**: Extract metadata like word count, line count, and file encoding.
+- Images: Extract metadata from JPEG images (EXIF data like camera model, date taken, etc.).
+- PDFs: Extract metadata such as author, title, producer, and subject.
+- Text Files: Extract metadata like word count, line count, and file encoding.
 - Returns metadata in a structured CSV format.
 
 ### IP Geolocation Tool
@@ -43,6 +44,12 @@ Welcome to the Fun Time Tools project! This repository contains a collection of 
 - Secure File Handling: Encrypts/decrypts a variety of filetypes.
 - Dark Theme GUI: Provides a "visually appealing" dark theme for the interface.
 
+### CTF MultiTool
+- Broken Access Control (OWASP ZAP): Tests for authentication and authorization vulnerabilities.
+- Cryptographic Failures (testssl.sh): Identifies SSL/TLS configuration issues and weaknesses.
+- Injection (SQL Injection using sqlmap): Automates detection and exploitation of SQL injection flaws.
+- Security Misconfiguration (nmap + nikto): Scans for common security misconfigurations and vulnerabilities.
+- SSRF Detection (Nuclei): Identifies Server-Side Request Forgery vulnerabilities using templates.
 ## Installation
 
 To get started, you'll need to clone the repository and install the required dependencies.
